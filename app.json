@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "qbtquiz",
-    "slug": "qbtquiz",
+    "name": "Quick Quiz",
+    "slug": "quickquiz",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logobg.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logolongbg.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,9 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logonobg.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.quickblogquiz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
